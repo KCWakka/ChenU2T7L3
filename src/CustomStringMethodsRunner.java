@@ -1,5 +1,9 @@
-public class Main {
+public class CustomStringMethodsRunner {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        CustomStringMethods methods = new CustomStringMethods();
+        String str = methods.starBetween("apple");
+        System.out.println(str);
+        str = methods.starBetween("Hey what's up?");
+        System.out.println(str);
     }
 }
